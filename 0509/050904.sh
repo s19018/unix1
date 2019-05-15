@@ -1,1 +1,1 @@
-rm dir1/dir2/dir3/file{01..10}
+rm dir1/dir2/dir3/file{01..05}
