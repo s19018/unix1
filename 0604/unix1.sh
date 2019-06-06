@@ -1,16 +1,16 @@
 #!/bin/bash
 
-function cont() {
-    echo -n 'continue?(y/n)'
-    read yesno
-    if [ $yesno = 'n' ]; then
-        echo 'end...'
-        exit
-    fi
-    echo 'continue...'
-}
-cd $HOME/repo/unix1/
-git status
+#function cont() {
+   # echo -n 'continue?(y/n)'
+   # read yesno
+   # if [ $yesno = 'n' ]; then
+   #     echo 'end...'
+   #     exit
+   # fi
+   # echo 'continue...'
+#}
+#cd $HOME/repo/unix1/
+#git status
 while :
 do
 
@@ -42,12 +42,12 @@ do
     esac
 done
 
-git add -i
-git status
-cont
-echo -n 'comment: '
-read comment
-git commit -m "$comment"
-git log --oneline
-cont
-git push
+#git add -i
+#git status
+#cont
+#echo -n 'comment: '
+#read comment
+#git commit -m "$comment"
+#git log --oneline
+#cont
+#git push
